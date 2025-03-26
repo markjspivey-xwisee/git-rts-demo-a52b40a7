@@ -1,0 +1,8 @@
+@prefix game: <http://example.org/game#>.
+
+@prefix game: <http://example.org/game#>.
+
+game:world_68d4682e a game:World;
+  game:width 100;
+  game:height 100.
+

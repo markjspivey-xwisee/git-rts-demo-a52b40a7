@@ -1,0 +1,11 @@
+@prefix game: <http://example.org/game#>.
+
+@prefix game: <http://example.org/game#>.
+
+game:Player1 a game:Player;
+  game:name "Player1";
+  game:resources_gold 100;
+  game:resources_wood 200;
+  game:resources_stone 50;
+  game:resources_food 150.
+

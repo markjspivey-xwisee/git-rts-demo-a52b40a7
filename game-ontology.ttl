@@ -1,0 +1,39 @@
+@prefix game: <http://example.org/game#>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix game: <http://example.org/game#>.
+
+game:Unit a owl:Class;
+  rdfs:label "Unit"@en;
+  rdfs:comment "A game unit that can move and engage in combat"@en.
+
+game:Player a owl:Class;
+  rdfs:label "Player"@en;
+  rdfs:comment "A player in the game"@en.
+
+game:World a owl:Class;
+  rdfs:label "World"@en;
+  rdfs:comment "The game world"@en.
+
+game:ResourceNode a owl:Class;
+  rdfs:label "ResourceNode"@en;
+  rdfs:comment "A resource node that can be gathered"@en.
+
+game:Research a owl:Class;
+  rdfs:label "Research"@en;
+  rdfs:comment "A technology research"@en.
+
+game:DiplomacyAction a owl:Class;
+  rdfs:label "DiplomacyAction"@en;
+  rdfs:comment "A diplomatic action between players"@en.
+
+game:Alliance a owl:Class;
+  rdfs:label "Alliance"@en;
+  rdfs:comment "An alliance between players"@en.
+
+game:Decorator a owl:Class;
+  rdfs:label "Decorator"@en;
+  rdfs:comment "A decorator that adds capabilities to entities"@en.

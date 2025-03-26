@@ -1,0 +1,18 @@
+@prefix game: <http://example.org/game#>.
+
+@prefix game: <http://example.org/game#>.
+
+game:resource_gold_1 a game:ResourceNode;
+  game:resourceType "gold";
+  game:x 10;
+  game:y 20;
+  game:amount 1000.
+
+@prefix game: <http://example.org/game#>.
+
+game:resource_wood_1 a game:ResourceNode;
+  game:resourceType "wood";
+  game:x 30;
+  game:y 40;
+  game:amount 2000.
+
